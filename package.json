@@ -1,46 +1,16 @@
 {
   "name": "react-contacts",
-  "version": "1.0.0",
-  "description": "Contact App using React",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build",
-    "build": "webpack-dev-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prasanthtr575/react-contacts.git"
-  },
-  "author": "Prasanth Raghavan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/prasanthtr575/react-contacts/issues"
-  },
-  "homepage": "https://github.com/prasanthtr575/react-contacts#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.3",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "clean-webpack-plugin": "^0.1.18",
-    "css-loader": "^0.28.10",
-    "file-loader": "^1.1.10",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.0.4",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "webpack": "^4.0.1",
-    "webpack-dev-server": "^3.1.0"
-  },
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
-    "redux": "^3.7.2",
-    "redux-logger": "^3.0.6",
-    "webpack-cli": "^2.0.10"
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
