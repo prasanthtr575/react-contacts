@@ -1,15 +1,20 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import { connect } from "react-redux";
 
 import Header from "./Header";
 
 class ContactList extends React.Component {
 	render() {
-		let list = this.props.contacts.map(
+		let list = this.props.data.contacts.map(
 			(contact, i) => 
 				<li className="list-group-item" key={i}>
-					{contact.firstName} <b> {contact.lastName} </b>
+					<Link to={`/detail/${contact.id}`}>
+						{contact.firstName} <b> {contact.lastName} </b>
+					</Link>
 				</li>
 		)
+
 		return (
 			<div>
 				<Header title="Contacts"/>
@@ -19,4 +24,10 @@ class ContactList extends React.Component {
 	}
 }
 
-export default ContactList;
+const mapStateToProps = (state) => {
+  return {
+    	data: state.contacts
+  	};
+};
+
+export default connect(mapStateToProps)(ContactList);
