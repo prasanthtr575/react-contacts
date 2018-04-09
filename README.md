@@ -3,7 +3,7 @@ A demo application to get familiarised with application development using React 
  
 URL: https://react-contacts-ind.firebaseapp.com/
 
-A ContactList component is added, loading data from a local JSON file.
+Introduced Redux to the application. ContactList is now subscribed to the Redux Store.
 
 To run the application in your local system
 1. Clone/download the source code
