@@ -11,7 +11,7 @@ export let updateContact = contact => {
 
 	selectedContact = contact;
 
-	return true;
+	return selectedContact;
 }
 
 export let deleteContact = id => contacts = contacts.filter( contact => contact.id !== id )
