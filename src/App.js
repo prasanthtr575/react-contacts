@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import ContactList from "./components/ContactList";
+import ContactDetail from "./components/ContactDetail";
+import { contacts } from "./mock/store";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>React Contacts App</h1>
-        <p>Boiler plate using react cli - create-react-app</p>
+        <ContactList contacts={contacts}></ContactList>
       </div>
     );
   }

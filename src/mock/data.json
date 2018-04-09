@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "firstName": "Prasanth",
+      "middleName": "Raghavan",
+      "lastName": "Thattanparambil",
+      "phone": "9400173575",
+      "email": "mailprasanthtr@gmail.com",
+      "id": 1988
+    },
+    {
+      "firstName": "Steve",
+      "middleName": "Paul",
+      "lastName": "Jobs",
+      "phone": "8400173575",
+      "email": "stevejobs@apple.com",
+      "id": 1955
+    },
+    {
+      "firstName": "Thomas",
+      "middleName": "Alva",
+      "lastName": "Edison",
+      "phone": "7400173575",
+      "email": "thomasedison@ge.com",
+      "id": 1847
+    }
+  ]
+}
